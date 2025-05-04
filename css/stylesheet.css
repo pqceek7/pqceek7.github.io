@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Ark Pixel 12px monospaced ja';
+    src: url('Ark-Pixel-12px-monospaced-ja-Regular.woff2') format('woff2'),
+        url('Ark-Pixel-12px-monospaced-ja-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('JetBrainsMono-Regular.woff2') format('woff2'),
+        url('JetBrainsMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('JetBrainsMono-Italic.woff2') format('woff2'),
+        url('JetBrainsMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+

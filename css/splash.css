@@ -1,0 +1,151 @@
+@import"https://use.typekit.net/rdv7hff.css";@import"css/stylesheet.css";@import"https://use.typekit.net/vte8cao.css";pre {
+    line-height: 125%
+}
+
+td.linenos .normal {
+    color: #d8dee9;
+    background-color: #242933;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+span.linenos {
+    color: #d8dee9;
+    background-color: #242933;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+td.linenos .special {
+    color: #242933;
+    background-color: #d8dee9;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+span.linenos.special {
+    color: #242933;
+    background-color: #d8dee9;
+    padding-left: 5px;
+    padding-right: 5px
+}
+
+#s-m-t-tooltip {
+    font-family: "Ark Pixel 12px monospaced ja","MS UI Gothic",sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    max-width: 300px;
+    z-index: 10;
+    margin: 24px 14px 7px 12px;
+    padding: 4px 7px;
+    background: #fff;
+    border-radius: 0;
+    border: 1px solid #000;
+    box-shadow: 2px 2px 0 rgba(0,0,0,.15),-1px -1px 0 rgba(255,255,255,.3);
+    line-height: 16px;
+    color: #000
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+    height: 10px
+}
+
+*::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px
+}
+
+*::-webkit-scrollbar-thumb {
+    background: #000;
+    border: 0px none #fff;
+    border-radius: 0px
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background: #000
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background: #fff
+}
+
+*::-webkit-scrollbar-track {
+    background: #fff;
+    border: 32px none #fff;
+    border-radius: 0px
+}
+
+*::-webkit-scrollbar-track:hover {
+    background: #fff
+}
+
+*::-webkit-scrollbar-track:active {
+    background: #000
+}
+
+*::-webkit-scrollbar-corner {
+    background: rgba(0,0,0,0)
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+    min-width: 680px;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff
+}
+
+.splash a {
+    cursor: pointer;
+    user-select: none;
+    display: block;
+    font-family: "neue-haas-grotesk-display";
+    font-size: 85px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    line-height: 60px
+}
+
+.splash h2 {
+    cursor: pointer;
+    user-select: none;
+    display: block;
+    font-family: Arial;
+    font-size: 85px;
+    font-weight: 0;
+    text-decoration: none;
+    color: #fff;
+    line-height: 0px
+}
+
+
+.splash a img {
+    width: 52px;
+    height: 52px;
+    animation: spin 1.6s linear infinite both
+}
+
+.splash p {
+    color: #fff;
+    user-select: none;
+    margin: 9px 0 0 0;
+    font-family: neue-haas-grotesk-text,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23.4px
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
