@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery | My Website</title>
+        <meta name="description" content="just click it dude!">
+        <meta name="theme-color" content="#2b2b2b">
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+        <meta property="og:url" content="https://pqceek7.github.io/">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="my fucking website">
+        <meta property="og:description" content="Just click it dude.">
+        <meta property="og:image" content="https://media.discordapp.net/attachments/845564216790220812/1368492127386079242/2zkl6ndjscv41.jpg?ex=68186b1c&is=6817199c&hm=fa2628513a6f1758538faf00b18181e23a9d3f9d1e366b0ac4b07de108a37fb7&=&format=webp&width=1522&height=856">
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:title" content="https://pqceek7.github.io"/>
+        <meta name="twitter:description" content="Just click it dude"/>
+        <meta name="twitter:image" content="https://media.discordapp.net/attachments/845564216790220812/1368492127386079242/2zkl6ndjscv41.jpg?ex=68186b1c&is=6817199c&hm=fa2628513a6f1758538faf00b18181e23a9d3f9d1e366b0ac4b07de108a37fb7&=&format=webp&width=1522&height=856"/>
+        <link rel="stylesheet" href="/css/gallery.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="home.html" class="go-back button">
+                    <i class="arrow right"></i>
+                    quay trở lại
+                </a>
+                <button id="modalButton" class="information button">thông tin</button>
+            </nav>
+        </header>
+        <div id="modalContainer" class="modal-container">
+            <div class="modal-box">
+                <span id="modalClose" class="close">×</span>
+                <h1>Kho Ảnh</h1>
+                <p>ảnh từ bé đến lớn, ảnh tất tần tật ảnh, đa phần lấy từ facebook chị :v</p>
+            </div>
+        </div>
+        <script>
+            var modal = document.getElementById("modalContainer")
+              , btn = document.getElementById("modalButton")
+              , close = document.getElementById("modalClose");
+            btn.onclick = function() {
+                modal.style.display = "block"
+            }
+            ,
+            close.onclick = function() {
+                modal.style.display = "none"
+            }
+            ,
+            window.onclick = function(o) {
+                o.target == modal && (modal.style.display = "none")
+            }
+            ;
+        </script>
+        <div id="gallery">
+            <a href="/assets/gallery/dutayvaochim.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Sờ chim; description: .description1; descPosition: right;">
+                <img src="/assets/gallery/dutayvaochim.webp" alt="" width="300">
+            </a>
+            <div class="description1 description">
+                <span class="date">tết 2011</span>
+                <span class="media">ở quê</span>
+                <p>
+                tạo dáng đút tay túi quần nhưng đút luôn vào trong quần
+                (＃＞＜)
+                </p>
+
+                
+            </div>
+            <a href="/assets/gallery/hanhlang.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: đi không ngoảnh lại; description: .description2; descPosition: right;">
+                <img src="/assets/gallery/hanhlang.webp" alt="" width="300">
+            </a>
+            <div class="description2 description">
+                <span class="date">không nhớ </span>
+                <span class="media">hành lang khu tập thể</span>
+                <p></p>
+                <p>
+                
+                </p>
+            </div>
+            <a href="/assets/gallery/vespa.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Vespa; description: .description3; descPosition: right;">
+                <img src="/assets/gallery/vespa.webp" alt="" width="300">
+            </a>
+            <div class="description3 description">
+                <span class="date">không nhớ</span>
+                <span class="media"></span>
+                <p>
+                   được anh hàng xóm chở đi học trên con vespa :D, ông này và ông anh trai, quý cả 2 người nhưng mà lên 5 tuổi, 2 ông chuyển nhà mất rồi
+                </p>
+                <img src="/assets/gallery/comment pic/com1.webp" width="100%">
+            </div>
+            <a href="/assets/gallery/khaigiang.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Khai giảng buồn ngủ; description: .description4; descPosition: right;">
+                <img src="/assets/gallery/khaigiang.webp" alt="" width="300">
+            </a>
+            <div class="description4 description">
+                <span class="date">2010</span>
+                <span class="media">tiểu học cầu vồng :D</span>
+                <p>
+                    khai giảng nào cũng buồn ngủ hết... ~~z z Z
+                </p>
+            </div>
+            <a href="/assets/gallery/newmember.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Hello Everynyan; description: .description5; descPosition: right;">
+                <img src="/assets/gallery/newmember.webp" alt="" width="300">
+            </a>
+            <div class="description5 description">
+                <span class="date">23 January 2011</span>
+                <span class="media"></span>
+                <p>Mèo này chị nhặt được nhưng mẹ không cho nuôi nên là cho nó ngủ qua đêm xong thả <br> ( =ω=)..nyaa~~</p>
+                <img src="assets/gallery/comment pic/com3.webp" width="100%">
+                <p> qua comment các anh thì t là thg có xu hướng bạo lực :)</p>
+            </div>
+            <a href="/assets/gallery/danhdap.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Ai là người đánh?; description: .description23; descPosition: right;">
+                <img src="/assets/gallery/danhdap.webp" alt="" width="300">
+            </a>
+            <div class="description23 description">
+                <span class="date">7 March 2010</span>
+                <span class="media"></span>
+                <p>Không biết là ai dạy hay học từ ai nhưng đợt này t tự dưng biết chửi địt mẹ mày, văng liên tục trong nhà sang tận hàng xóm, nhớ có một lần bị chị mắng thay vì khóc và gào lên thì vừa khóc vừa chửi địt mẹ mày ... </p>
+                <p><a href="/assets/gallery/comment pic/combon.webp">trích lời từ anh Lam</a> </p>
+                <p>"oi thang` bon C' cua? long` a :-s :(((((( .dao nay` kute hon ca minh` roi =((((((( .hnao den day chui? bay cai.lau ngay ko gap ko biet con` nho' gi` ko =))))))"</p>
+            </div>
+            <a href="/assets/gallery/khanlen.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Al Qaeda?!?; description: .description6; descPosition: right;">
+                <img src="/assets/gallery/khanlen.webp" alt="" width="300">
+            </a>
+            <div class="description6 description">
+                <span class="date">1 February 2011</span>
+                <span class="media"></span>
+                <p>có cái khăn len màu đỏ. ^^</p>
+                <img src="/assets/gallery/comment pic/comhai.webp" width="100%">
+
+            </div>
+            <a href="/assets/gallery/tet1.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: tôi và chị hai; description: .description7; descPosition: right;">
+                <img src="/assets/gallery/tet1.webp" alt="" width="300">
+            </a>
+            <div class="description7 description">
+                <span class="date">3 February 2011</span>
+                <span class="media"></span>
+                <p>chị hai này là chị thứ hai</p>
+                
+            </div>
+            <a href="/assets/gallery/tet.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Quê Ngoại; description: .description8; descPosition: right;">
+                <img src="/assets/gallery/tet.webp" alt="" width="300">
+            </a>
+            <div class="description8 description">
+                <span class="date">4 February 2011</span>
+                <span class="media">digital, Clip Studio Paint</span>
+                <p>
+                    Mùng hai tết
+                </p>
+            </div>
+            <a href="/assets/gallery/aomoi.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Lợn cưới áo mới; description: .description9; descPosition: right;">
+                <img src="/assets/gallery/aomoi.webp" alt="" width="300">
+            </a>
+            <div class="description9 description">
+                <span class="date">mùa đông 2011</span>
+                <span class="media"></span>
+                <p>
+                    Quần áo mới cho mùa đông (≧◡≦)
+                </p>
+            </div>
+            <a href="/assets/gallery/kem.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Kem; description: .description10; descPosition: right;">
+                <img src="/assets/gallery/kem.webp" alt="" width="300">
+            </a>
+            <div class="description10 description">
+                <span class="date">10 March 2012</span>
+                <p>Đã từng có một chiều như thế <3.</p>
+            </div>
+            <a href="/assets/gallery/dut.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: wtf is this; description: .description11; descPosition: right;">
+                <img src="/assets/gallery/dut.webp" alt="" width="300">
+            </a>
+            <div class="description11 description">
+                <span class="date">không nhớ</span>
+                <span class="media"></span>
+                <p>
+                    đụt
+                </p>
+            </div>
+            <a href="/assets/gallery/kemlan2.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Kem Lần 2; description: .description12; descPosition: right;">
+                <img src="/assets/gallery/kemlan2.webp" alt="" width="300">
+            </a>
+            <div class="description12 description">
+                <span class="date">kem</span>
+                <span class="media">Hồ Gươm</span>
+                <p>Kem ngon, lần này ăn ở Tràng Tiền.</p>
+            </div>
+            <a href="/assets/gallery/hiphop4ever.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Hip Hop; description: .description13; descPosition: right;">
+                <img src="/assets/gallery/hiphop4ever.webp" alt="" width="300">
+            </a>
+            <div class="description13 description">
+                <span class="date">không nhớ</span>
+                <span class="media"></span>
+                <p>#hiphop4ever</p>
+            </div>
+            <a href="/assets/gallery/honcaima.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: A lil' kiss; description: .description14; descPosition: right;">
+                <img src="/assets/gallery/honcaima.webp" alt="" width="300">
+            </a>
+            <div class="description14 description">
+                <span class="date">5 tuổi</span>
+                <span class="media"></span>
+                <p>
+                    Mwah (⁄ ⁄>⁄ ▽ ⁄<⁄ ⁄)
+                </p>
+                <p></p>
+            </div>
+            <a href="/assets/gallery/namtruon1.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Trưa chán; description: .description15; descPosition: right;">
+                <img src="/assets/gallery/namtruon1.webp" alt="" width="300">
+            </a>
+            <div class="description15 description">
+                <span class="date">10 April 2024</span>
+                <span class="media">CNH</span>
+                <p>Chơi snake trên nokia, con lợn đăng béo heo hút chụp lén</p>
+                
+            </div>
+            <a href="/assets/gallery/namtruon2.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Nguyên cẩn thận; description: .description16; descPosition: right;">
+                <img src="/assets/gallery/namtruon2.webp" alt="" width="300">
+            </a>
+            <div class="description16 description">
+                <span class="date">mùa xuân 2025</span>
+                <span class="media">CNH</span>
+                <p>Khi thằng cùng giường gay joke quá nhiều</p>
+ 
+            </div>
+            <a href="/assets/gallery/hanoi1.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Mưa ngâu; description: .description17; descPosition: right;">
+                <img src="/assets/gallery/hanoi1.jpg" alt="" width="300">
+            </a>
+            <div class="description17 description">
+                <span class="date">21 April 2025</span>
+                <span class="media">Hầm chui Khuất Duy Tiến</span>
+                <p>cơn mưa đầu tháng 5</p>
+
+            </div>
+            <a href="/assets/gallery/hanoi2.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: solo Bờ Hồ; description: .description18; descPosition: right;">
+                <img src="/assets/gallery/hanoi2.jpg" alt="" width="300">
+            </a>
+            <div class="description18 description">
+                <span class="date">28 January 2025</span>
+                <span class="media">Khuất Duy Tiến</span>
+                <p>
+                    Đường vắng, cảm giác tiệm cận hà nội xưa
+                </p>
+            </div>
+            <a href="/assets/gallery/noitinhyeubatdau.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Nơi ... Bắt Đầu; description: .description19; descPosition: right;">
+                <img src="assets/gallery/137299292_2876366179308142_48771.webp" alt="" width="300">
+            </a>
+            <div class="description19 description">
+                <span class="date">đông năm lớp 8</span>
+                <span class="media">Archimedes Academy</span>
+                <p>K-market ưu đãi mua 1 "tặng" 1 hì hì, ai biết đâu</p>
+                <p>pùn ghê</p>
+            </div>
+            <a href="/assets/gallery/phongchongxamhai.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Vẽ vời; description: .description20; descPosition: right;">
+                <img src="/assets/gallery/phongchongxamhai.webp" alt="" width="300">
+            </a>
+            <div class="description20 description">
+                <span class="date">lớp 5</span>
+                <span class="media">Cung Thiếu Nhi</span>
+                <p>BỨC NÀY BỐ M VẼ AHAHAHHAHA</p>
+                
+            </div>
+            <a href="/assets/gallery/thgtribeo.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Quá béo; description: .description21; descPosition: right;">
+                <img src="/assets/gallery/thgtribeo.jpg" alt="" width="300">
+            </a>
+            <div class="description21 description">
+                <span class="date">7 April 2025</span>
+                <span class="media">Vincom TDH</span>
+                <p>Béo quá Trí ơi, m béo cũng được nhưng đừng chết trước cậu</p>
+            </div>
+            <a href="/assets/gallery/cafe.webp" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Nyan nyan; description: .description22; descPosition: right;">
+                <img src="/assets/gallery/cafe.webp" alt="" width="300">
+            </a>
+            <div class="description22 description">
+                <span class="date">không nhớ</span>
+                <span class="media">Cà Phê Mèo</span>
+                <p>Từng đi cùng chị mà không có một chút kí ức nào, quá buồn</p>
+        
+            </div>
+            <!--
+            <a href="/assets/img/gallery/2022-02-04-rin-tezuka.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Rin Tezuka; description: .description23; descPosition: right;">
+                <img src="/assets/img/gallery/2022-02-04-rin-tezuka.jpg" alt="" width="300">
+            </a>
+            <div class="description23 description">
+                <span class="date">4 February 2022</span>
+                <span class="media">digital, Clip Studio Paint</span>
+                <p>
+                    <strong>I swear, this is not fetish art.</strong>
+                    She’s just painting with her feet.
+                </p>
+                <p>It’s Rin Tezuka. I find her character fascinating and, some might describe this as worrying, relatable. She’s an absent-minded, kinda nutty armless girl who paints and speaks nonsense. Like the kids nowadays tend to say, “she just like me fr!”.</p>
+                <p>Except I still have arms.</p>
+                <p>
+                    You can see the <a href="/assets/img/gallery/additional/2022-02-04-rin-tezuka-1.jpg">initial thumbnail here</a>
+                    , and a <a href="/assets/img/gallery/additional/2022-02-04-rin-tezuka-2.gif">GIF of the painting process</a>
+                    here.
+                </p>
+            </div>
+            <a href="/assets/img/gallery/2022-01-17-i-should-be-asleep-by-now.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: I should be asleep by now; description: .description24; descPosition: right;">
+                <img src="/assets/img/gallery/2022-01-17-i-should-be-asleep-by-now.jpg" alt="" width="300">
+            </a>
+            <div class="description24 description">
+                <span class="date">17 January 2022</span>
+                <span class="media">digital, Illustrator</span>
+                <p>It was 4 in the morning, and I was up messing around with letters in Illustrator. Only good life decisions being made in here, yes yes!</p>
+                <p>
+                    Some people are addicted to drugs, others to gambling, here I am addicted to a <em>font</em>
+                    . lmao
+                </p>
+            </div>
+            <a href="/assets/img/gallery/2022-01-14-distrust.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Distrust; description: .description25; descPosition: right;">
+                <img src="/assets/img/gallery/2022-01-14-distrust.jpg" alt="" width="300">
+            </a>
+            <div class="description25 description">
+                <span class="date">14 January 2022</span>
+                <span class="media">digital, Clip Studio Paint</span>
+                <p>Me when I’m awake at 2 in the morning playing Spore and I begin to contemplate the life choices that led me to this point.</p>
+            </div>
+            <a href="/assets/img/gallery/2021-12-23-whoosh.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Whoosh; description: .description26; descPosition: right;">
+                <img src="/assets/img/gallery/2021-12-23-whoosh.jpg" alt="" width="300">
+            </a>
+            <div class="description26 description">
+                <span class="date">23 December 2021</span>
+                <span class="media">digital, Clip Studio Paint</span>
+                <p>Don’t you hate when the wind blows and your hair starts flowing in a geometric, sorta angular way? Pisses me off.</p>
+            </div>
+            <a href="/assets/img/gallery/2021-12-10-hypercolour-burst.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Hypercolour Burst; description: .description27; descPosition: right;">
+                <img src="/assets/img/gallery/2021-12-10-hypercolour-burst.jpg" alt="" width="300">
+            </a>
+            <div class="description27 description">
+                <span class="date">10 December 2021</span>
+                <span class="media">digital, Clip Studio Paint</span>
+                <p>
+                    Probably heavily inspired on an <a href="https://en.wikipedia.org/wiki/Typhoons_(album)" target="_blank" rel="noopener noreferrer">album cover</a>
+                    designed by <a href="https://www.instagram.com/phillee/" target="_blank" rel="noopener noreferrer">Phil Lee</a>
+                    . Not a big fan of the music, but I like the pretty lights.
+                </p>
+            </div>
+            <a href="/assets/img/gallery/2021-10-04-saiou.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Saiou; description: .description28; descPosition: right;">
+                <img src="/assets/img/gallery/2021-10-04-saiou.jpg" alt="" width="300">
+            </a>
+            <div class="description28 description">
+                <span class="date">4 October 2021</span>
+                <span class="media">digital, Clip Studio Paint</span>
+                <p>Sometimes you must channel your inner 13 year old fandom girl into something tangible in order to maintain sanity.</p>
+            </div>
+            <a href="/assets/img/gallery/2021-04-02-bus-stop.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Bus Stop; description: .description29; descPosition: right;">
+                <img src="/assets/img/gallery/2021-04-02-bus-stop.jpg" alt="" width="300">
+            </a>
+            <div class="description29 description">
+                <span class="date">2 April 2021</span>
+                <span class="media">digital, Clip Studio Paint</span>
+                <p>A more story-focused piece: Haki and Matti as teenagers, in different parts of the world, waiting to get home from school. Matti in the sunny Finnish countryside, Haki in a dingy bus stop in the middle of Korin’s long winter darkness.</p>
+            </div>
+            <a href="/assets/img/gallery/2021-01-12-chiaki.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Chiaki; description: .description30; descPosition: right;">
+                <img src="/assets/img/gallery/2021-01-12-chiaki.jpg" alt="" width="300">
+            </a>
+            <div class="description30 description">
+                <span class="date">12 January 2021</span>
+                <span class="media">digital, Clip Studio Paint</span>
+                <p>She has quite the blank expression doesn’t she.</p>
+                <p>
+                    A quick experiment with crispy lineless art. I really love this kinda stuff, even if it unfortunately resembles corporate art (<em>everyone’s favourite!</em>
+                    ).
+                </p>
+            </div>
+            <a href="/assets/img/gallery/2020-11-17-routine.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Routine; description: .description31; descPosition: right;">
+                <img src="/assets/img/gallery/2020-11-17-routine.jpg" alt="" width="300">
+            </a>
+            <div class="description31 description">
+                <span class="date">17 November 2020</span>
+                <span class="media">mixed media, ink on watercolour paper, scanned and edited in Photoshop</span>
+                <p>
+                    A piece where both traditional and digital methods were essential to its production: first, aimless watercolour blobs and <a href="https://www.youtube.com/watch?v=RQoVHqveQ98" target="_blank" rel="noopener noreferrer">some random lyrics</a>
+                    on paper (<a href="/assets/img/gallery/additional/2020-11-17-routine-1.jpg">you can see it here!</a>
+                    ), then that was scanned and messed with in Photoshop to create a better composition.
+                </p>
+                <p>
+                    This is actually an alternate version, <a href="/assets/img/gallery/additional/2020-11-17-routine-2.jpg">the original</a>
+                    is blue and white. I think the contrast between red and black looks much more striking.
+                </p>
+            </div>
+            <a href="/assets/img/gallery/2020-11-15-cutouts.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Cutouts; description: .description32; descPosition: right;">
+                <img src="/assets/img/gallery/2020-11-15-cutouts.jpg" alt="" width="300">
+            </a>
+            <div class="description32 description">
+                <span class="date">15 November 2020</span>
+                <span class="media">digital, Clip Studio Paint</span>
+                <p>Misaki Nakahara from the funny schizo anime.</p>
+                <p>I wanted to try something akin to digital collage but instead using the cutout for blocks of colour in the image. Drop shadows were applied to each piece of “paper” you see to create a bit of tridimensionality. The composition is pretty boring but the collage effect makes up for it.</p>
+            </div>
+            <a href="/assets/img/gallery/2020-09-03-stairwell.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Stairwell; description: .description33; descPosition: right;">
+                <img src="/assets/img/gallery/2020-09-03-stairwell.jpg" alt="" width="300">
+            </a>
+            <div class="description33 description">
+                <span class="date">3 September 2020</span>
+                <span class="media">traditional, watercolour and brown ink over watercolour paper</span>
+                <p>Back when Haki still had short hair. She looks kinda awkward here, frankly. Anatomy truly is suffering—who is responsible for designing the human body? You overengineered the crap out of it, and now I can’t really draw it! And her hair is too blue.</p>
+                <p>Her shirt is great though. I want it.</p>
+            </div>
+            <a href="/assets/img/gallery/2020-05-20-candle.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Candle; description: .description34; descPosition: right;">
+                <img src="/assets/img/gallery/2020-05-20-candle.jpg" alt="" width="300">
+            </a>
+            <div class="description34 description">
+                <span class="date">20 May 2020</span>
+                <span class="media">digital, Clip Studio Paint</span>
+                <p>I made this for someone else’s “draw this in your style” thing a while ago. The character was rendered without lines (a painful process if you’re as precise as I am), while the plants in the background have the colours slightly outside of the lines, creating a sort of printed effect.</p>
+            </div>
+            <a href="/assets/img/gallery/2020-03-28-zigzag.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Zigzag; description: .description35; descPosition: right;">
+                <img src="/assets/img/gallery/2020-03-28-zigzag.jpg" alt="" width="300">
+            </a>
+            <div class="description35 description">
+                <span class="date">28 March 2020</span>
+                <span class="media">traditional, alcohol markers, black ink and white ink on paper</span>
+                <p>A fun experiment using tape to mask parts of the drawing. Despite using so many random colours without proper care to how they work together, I think it ended up being surprisingly cohesive.</p>
+            </div>
+            <a href="/assets/img/gallery/2018-09-05-emptiness.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Emptiness; description: .description36; descPosition: right;">
+                <img src="/assets/img/gallery/2018-09-05-emptiness.jpg" alt="" width="300">
+            </a>
+            <div class="description36 description">
+                <span class="date">5 September 2018</span>
+                <span class="media">traditional, ballpoint pen, coloured pencil and highlighter over paper</span>
+                <p>School’s the best place to draw, isn’t it? Unfortunately, I couldn’t bring many art supplies. No problem for me though! I still had a blue pencil, a blue highlighter, and a blue pen.</p>
+                <p>I’ve heard from others that the person without a face over there is quite unsettling. It wasn’t my intention, but I embrace it.</p>
+            </div>
+            <a href="/assets/img/gallery/2018-06-18-looming-above.jpg" class="gallery-item glightbox" data-gallery="gallery1" data-glightbox="title: Looming Above; description: .description37; descPosition: right;">
+                <img src="/assets/img/gallery/2018-06-18-looming-above.jpg" alt="" width="300">
+            </a>
+            <div class="description37 description">
+                <span class="date">18 June 2018</span>
+                <span class="media">digital, Procreate</span>
+                <p>Probably my favourite piece I’ve ever made. Took over 10 hours of tapping away on my iPad’s screen, but it was well worth it.</p>
+                <p>It’s kinda sad that it’s half a decade old.</p>
+            </div> -->
+        </div>
+        <script src="/js/lightbox.js"></script>
+        <script src="/js/macy.js"></script>
+        <script>
+            var macy = Macy({
+                container: '#gallery',
+                margin: 10,
+                columns: 4,
+                breakAt: {
+                    1200: 3,
+                    800: 2,
+                    400: 1
+                }
+            });
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="/js/style-my-tooltips.js"></script>
+    </body>
+</html>
