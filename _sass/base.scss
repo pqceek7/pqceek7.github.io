@@ -1,0 +1,113 @@
+$backgroundColor: #ffffff;
+$bodyColor: #000000;
+$bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+body {
+  background-image: url("/images/gantzwallpaper.webp");
+}
+
+.main-body{
+  background-color: $backgroundColor;
+  color: $bodyColor;
+  font-family: "Times New Roman", Times, serif;
+  width: 90%;
+  max-width: 960px; /* Stops the site from getting too wide */
+  margin: 1rem auto;
+  padding: 1rem 2rem 300px 2rem;
+}
+/* 2. Header (Logo and Title) */
+.site-header {/* Aligns items side-by-side */
+  text-align: center; /* Vertically centers them */
+  gap: 15px; /* Adds space between logo and title */
+}
+
+.site-header h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin: 0;
+}
+
+/* 3. Navigation and Description */
+.page-nav{
+  text-align: center; /* Centers the navigation */
+  font-size: 1.2rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.archive-description {
+  text-align: center; /* Centers the text */
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+/* 4. The Post List (from previous step) */
+.archive-list-simple {
+  font-family:  "Times New Roman", Times, serif;
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+.archive-list-simple .post-date {
+  color: #000;
+}
+
+.archive-list-simple a {
+  text-decoration: underline;
+  color: #0000EE; /* Standard blue link */
+}
+
+.archive-list-simple a:visited {
+  color: #551A8B; /* Standard purple visited link */
+}
+
+/* 5. Horizontal Lines */
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+}
+/* 1. The Grid Container */
+.gallery-grid {
+  display: grid;
+  
+  /* This is the key. It tells the browser:
+    - Try to fill the row (auto-fill)
+    - Make each box at least 250px wide (minmax)
+    - Let them grow equally to fill the space (1fr)
+  */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  
+  /* This is the space between your boxes */
+  gap: 1rem; 
+}
+
+/* 2. A Single Grid Item (The Box) */
+.gallery-item {
+  /* This creates the black border from your image */
+  border: 1px solid black;
+  
+  /* These lines make the images look uniform */
+  aspect-ratio: 16 / 9; /* Creates a 16:9 ratio box */
+  overflow: hidden; /* Hides any part of the image that spills out */
+}
+
+/* 3. The Image Inside the Box */
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This crops the image to fit, it won't be stretched */
+}
+.gallery-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.post-content{
+  font-family: Helvetica;
+  font-size: larger;
+}
+.post-title {
+  font-family: Helvetica;
+}

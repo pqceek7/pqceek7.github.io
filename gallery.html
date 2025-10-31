@@ -1,0 +1,16 @@
+---
+layout: page
+title: Gallery
+permalink: /gallery
+---
+<div class="gallery-grid">
+  {% for item in site.data.gallery %}
+    <div class="gallery-item">
+    
+      <a href="{{ item.image_path | relative_url }}" target="_blank">
+        <img src="{{ item.image_path | relative_url }}" alt="{{ item.alt }}">
+      </a>
+      
+    </div>
+  {% endfor %}
+</div>

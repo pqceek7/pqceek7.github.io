@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include google_analytics.html %}
+<head>
+  <meta charset="UTF-m-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title | default: "Fellow Huster Blog" }}</title>
+  <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  <link rel="icon" href="{{ "/favicon.ico" | relative_url }}">
+</head>
+<body>
+  <div class="main-body">
+    <div class="site-header">
+      <h1>
+        A Huster's Garbage Dump
+      </h1>
+    </div>
+    <hr>
+
+    <div class="page-nav">
+      [ <a href="/">Archive</a> 
+      | <a href="/about/">About</a>
+      | <a href="/gallery/">Gallery</a> 
+      | <a href="/today.html">Misc</a> ]
+    </div>
+    {% if page.url == "/" %}
+      <div class="archive-description">
+        <a>
+          <img src="{{"/images/cuunet.jpg" | relative_url }}" title="Mai Phuong Thuy" width="30%">
+        </a>
+        <p>
+          Một cái blog vui vẻ của một Huster 2025-... Lảm nhảm linh tinh về cuộc sống sinh viên, học tập, và nhiều thứ khác... .
+          <br>
+          Tôi sẽ chịu trách nhiệm cho những gì mình viết nhưng không chịu trách nhiệm về những gì bạn hiểu <img src="/images/Popo/shame.webp">.
+          <br>
+          name <a href="https://gantz.fandom.com/wiki/Reika_Shimohira">em gái</a> ở hình nền nhé <img src="/images/Popo/sexy_girl.webp"> <img src="/images/Popo/sexy_girl.webp">
+        </p>
+      </div>
+    {% endif %}
+    <hr>
+
+    <main class="page-content">
+      {{ content }}
+    </main>
+  </div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+- image_path: /images/gallery/pic1.jpg
+  alt: "A cool picture"
+
+- image_path: /images/gallery/pic2.jpg
+  alt: "Another cool picture"
+
+- image_path: /images/gallery/pic3.jpg
+  alt: "The third picture"
