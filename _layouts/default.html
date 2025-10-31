@@ -18,10 +18,10 @@
     <hr>
 
     <div class="page-nav">
-      [ <a href="/">Archive</a> 
-      | <a href="/about/">About</a>
-      | <a href="/gallery/">Gallery</a> 
-      | <a href="/today.html">Misc</a> ]
+      [ <a href="{{ "/" | relative_url }}">Archive</a> 
+      | <a href="{{ "/about/" | relative_url }}">About</a>
+      | <a href="{{ "/gallery/" | relative_url }}">Gallery</a> 
+      | <a href="{{ "/today.html" | relative_url }}">Misc</a> ]
     </div>
     {% if page.url == "/" %}
       <div class="archive-description">
