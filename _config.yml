@@ -1,5 +1,3 @@
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "" # the subpath of your site, e.g. /blog
 title: "Fellow Huster Blog"
 description: "Personal website of uni a student" # the name of your site, e.g. ACME Corp.
 email: thuoclarattot@gmail.com
@@ -7,5 +5,5 @@ google_analytics_tracking_id:
 author: "A Huster"
 
 
-url: "https://pqceek7.github.io" 
-baseurl: "/fellow-huster-blog" 
+url: "https://pqceek7.github.io"
+baseurl: "/fellow-huster-blog"
