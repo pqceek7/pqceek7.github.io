@@ -8,14 +8,14 @@ $bodyFont: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-seri
   color: $bodyColor;
   font-family: "Times New Roman", Times, serif;
   width: 90%;
-  max-width: 960px; /* Stops the site from getting too wide */
+  max-width: 960px;
   margin: 1rem auto;
   padding: 1rem 2rem 300px 2rem;
 }
 /* 2. Header (Logo and Title) */
 .site-header {/* Aligns items side-by-side */
-  text-align: center; /* Vertically centers them */
-  gap: 15px; /* Adds space between logo and title */
+  text-align: center;
+  gap: 15px; 
 }
 
 .main h2,
@@ -68,33 +68,21 @@ hr {
 /* 1. The Grid Container */
 .gallery-grid {
   display: grid;
-  
-  /* This is the key. It tells the browser:
-    - Try to fill the row (auto-fill)
-    - Make each box at least 250px wide (minmax)
-    - Let them grow equally to fill the space (1fr)
-  */
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  
-  /* This is the space between your boxes */
   gap: 1rem; 
 }
 
 /* 2. A Single Grid Item (The Box) */
 .gallery-item {
-  /* This creates the black border from your image */
   border: 1px solid black;
-  
-  /* These lines make the images look uniform */
   aspect-ratio: 16 / 9; /* Creates a 16:9 ratio box */
   overflow: hidden; /* Hides any part of the image that spills out */
 }
 
-/* 3. The Image Inside the Box */
 .gallery-item img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* This crops the image to fit, it won't be stretched */
+  object-fit: cover; 
 }
 .gallery-item a {
   display: block;
@@ -108,4 +96,7 @@ hr {
 }
 .post-title {
   font-family: Helvetica;
+}
+.comment-wrapper {
+  width: 100%;
 }
