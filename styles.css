@@ -7,23 +7,23 @@ a:hover {
 }
 
 p {
-    font-family: 'Garamond', serif;
+    font-family: 'EB Garamond', serif;
 }
 li {
-    font-family: 'Garamond', serif;
+    font-family: 'EB Garamond', serif;
 }
 
 ul {
-    font-family: 'Garamond', serif;
+    font-family: 'EB Garamond', serif;
 }
 
 .myname {
-    font-family: 'Garamond', serif;
+    font-family: 'EB Garamond', serif;
     font-size: 18pt;
     margin: 0;
 }
 .myrole {
-    font-family: 'Garamond', serif;
+    font-family: 'EB Garamond', serif;
     font-size: 12pt;
     margin: 0;
 }
@@ -73,7 +73,7 @@ ul {
 
 
 .the-second-grid h3 {
-    font-family: 'Garamond', serif;
+    font-family: 'EB Garamond', serif;
     font-size: 12pt;
     margin: 0px;
     text-transform: uppercase; 
@@ -92,7 +92,7 @@ ul {
 
 
 .second-content-grid h3 {
-    font-family: 'Garamond', serif;
+    font-family: 'EB Garamond', serif;
     font-size: 12pt;
     margin: 0px;
 }
